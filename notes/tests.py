@@ -58,5 +58,3 @@ class APITestCase(TestCase):
         url = reverse('note-version-history', args=[note.id])
         response = self.client.get(url)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
-
-# Add more test cases for other views as needed
