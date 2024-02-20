@@ -4,6 +4,8 @@ Apply migrations to create the necessary database tables: python manage.py migra
 
 Start the Django development server: python manage.py runserver.
 
+Start the test server: python manage.py test
+
 Dependencies: pip install djangorestframework, pip install djangorestframework-simplejwt, pip install django-rest-framework
 
 You can now access the defined endpoints:
